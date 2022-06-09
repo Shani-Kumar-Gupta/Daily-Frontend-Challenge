@@ -7,10 +7,11 @@
     <meta name="author" content="Shani Kumar Gupta" />
     <meta name="description" content="Challenge 1" />
     <meta name="keywords" content="challenge, html, css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
-      <header>
+      <header class="container__header">
         <h1>XYZ Company</h1>
         <ul>
           <li><a href="#">About</a></li>
@@ -19,9 +20,17 @@
         </ul>
       </header>
       <main>
-        <section class="content"></section>
+        <section class="content">
+          <p class="error">Error 404</p>
+          <h2 class="name">Hey Buddy</h2>
+          <p>
+            We can't seem to find the page <br />
+            you're looking for.
+          </p>
+        </section>
+        <img src="assets/images/pagenotfound.png" alt="Page not found" />
         <section>
-          <img src="" alt="Page not found" />
+          <p class="contact">7054048089 | info@error.com</p>
         </section>
       </main>
     </div>
