@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f4690;
+}
+
+.container {
+  width: 50%;
+  margin: 100px auto;
+  /* background-color: #3a5ba0; */
+}
+
+.main__header {
+  margin-bottom: 30px;
+}
+
+.main__header h1,
+p {
+  color: white;
+  font-weight: bold;
+}
+
+.main__header h1 {
+  float: left;
+}
+
+.main__header p {
+  float: right;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.search {
+  background-color: #3a5ba0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.search-user {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: #3a5ba0;
+  margin-left: 20px;
+}
+
+.search-user:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: white;
+  font-weight: bold;
+}
+
+.search-icon {
+  color: #1f4690;
+  font-size: 20px;
+}
+
+.search-btn {
+  background-color: #1f4690;
+  border-style: hidden;
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: white;
+  float: right;
+}
+
+.main {
+  background-color: #3a5ba0;
+  border-radius: 5px;
+  padding: 10px;
+  height: 50vh;
+}
+
+.main-img-sec {
+  float: left;
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main-content-sec {
+  float: right;
+  width: 70%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.git-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
