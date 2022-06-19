@@ -6,6 +6,7 @@
 
 body {
   background-color: #1f4690;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container {
@@ -80,7 +81,7 @@ p {
 .main {
   background-color: #3a5ba0;
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
   height: 50vh;
 }
 
@@ -103,4 +104,60 @@ p {
   width: 130px;
   height: 130px;
   border-radius: 50%;
+}
+
+.main-content-sec h3 {
+  color: white;
+  float: left;
+}
+
+.main-content-sec .joined {
+  color: white;
+  font-size: 12px;
+  float: right;
+}
+
+.main-content-sec .username {
+  margin-top: 8px;
+  color: darkblue;
+  font-size: 16px;
+}
+
+.main-content-sec .description {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.summary {
+  background-color: #1f4690;
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.summary table {
+  width: 100%;
+  color: white;
+}
+
+.summary table th {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.summary table td {
+  text-align: center;
+}
+
+.summary-2 {
+  margin-top: 30px;
+  color: white;
+}
+
+.summary-2 table {
+  width: 100%;
+}
+
+.summary-2 table td {
+  padding: 10px;
 }
